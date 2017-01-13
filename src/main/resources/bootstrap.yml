@@ -1,0 +1,10 @@
+spring:  
+  application:
+    name: CloudConfigServer
+  cloud:
+    config:
+      server:
+        git:
+          uri: file://D:/Paysafe/configclient
+server:  
+  port: 8888
